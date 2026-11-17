@@ -1,0 +1,13 @@
+LICENCIAS DE TERCEROS — QORVEX
+===============================
+QORVEX incluye únicamente el siguiente componente de terceros:
+
+xlsx-js-style (basado en SheetJS Community Edition)
+  Uso: leer y escribir archivos de Excel.
+  Licencia: Apache License 2.0
+  Texto completo: js/lib/LICENSE-xlsx-js-style.txt
+  En QORVEX MOBILE va incluido dentro de index.html.
+
+La licencia Apache 2.0 permite su uso comercial. No otorga derechos sobre el resto de QORVEX.
+No se usan fuentes, imágenes ni servicios externos. Todo lo demás es obra original de
+CH Industrial Solutions.
