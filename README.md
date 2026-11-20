@@ -14,3 +14,7 @@ Publicado en GitHub Pages: https://charliealberth2805-svg.github.io/Qorvex-Mobil
 - Todo el programa está en `index.html` (incluye xlsx-js-style, Apache 2.0; licencia en `js/lib/`).
 
 QORVEX (Motor): https://charliealberth2805-svg.github.io/QORVEX/
+
+
+## Etiquetas 6 × 4
+Pestaña **ETIQUETAS** (misma en QORVEX y QORVEX MOBILE): genera, imprime, reimprime y anula etiquetas de Validación, Secuencia y Línea. Registro en TXT dentro de `Data Base/Etiquetas/`; los consecutivos se reservan con candado para que dos equipos nunca saquen el mismo ID. Código compartido: `js/etiquetas.js` (en MOBILE va incluido dentro de `index.html`). Código de barras Code 128 propio, sin librerías externas.
