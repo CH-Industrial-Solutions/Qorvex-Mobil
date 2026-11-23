@@ -29,7 +29,7 @@
   /* ---------- Login / Registro con deslizador ---------- */
   window.renderLogin = renderLogin = function (prefill = '') {
     loadAll();
-    app().innerHTML = `<div class="lg-page" style="background-image:url('${WALL[wallN()]}')">
+    app().innerHTML = `<div class="lg-page" style="background-image:url('${WALL[wallN()]}')"><img class="lg-chmark" src="img/logo-ch-blanco.svg" alt="CH Industrial Solutions">
       <div class="lg-card">
         <div class="lg-brand"><img src="${document.documentElement.dataset.theme === 'light' ? QM_L : QM_D}" alt="QORVEX" style="height:54px"><div class="lg-bt"><b>QORVEX MOBILE</b><small>Validación y Secuencia</small></div></div>
         <div class="lg-sw"><span class="lg-knob"></span><button type="button" class="on" data-p="0">Iniciar sesión</button><button type="button" data-p="1">Registrarse</button></div>
