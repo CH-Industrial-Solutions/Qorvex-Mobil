@@ -1,0 +1,25 @@
+QORVEX · carpeta img  (V 13.06)
+=====================================
+Las imagenes de QORVEX (Motor) y QORVEX MOBILE estan aqui, con los MISMOS nombres
+en los dos repositorios. Para cambiar una imagen:
+  1. Prepara la nueva con el MISMO nombre y el MISMO formato (.jpg o .png).
+  2. Subela a la carpeta img/ de QORVEX_SeqManager y de Qorvex-Mobil (entra primero a img/).
+  3. Espera 1-2 minutos y abre con Ctrl + F5.
+  4. En las PCs con acceso directo: reemplaza tambien el archivo en
+     %LOCALAPPDATA%\QORVEX\app\QORVEX\img y ...\QORVEX_MOBILE\img (o reinstala).
+
+ARCHIVO                  DONDE SE VE                                        TAMANO SUGERIDO
+almacen-claro.jpg        Encabezado de Inicio (Motor) e Iniciar captura      1056 x 380 (proporcion 2.8 : 1)
+                         (Mobile), tema claro
+almacen-oscuro.jpg       Lo mismo, tema oscuro                               1056 x 380
+fondo-login-1.jpg        Fondo del inicio de sesion, opcion 1 (CONFIG)       1600 x 900
+fondo-login-2.jpg        Fondo del inicio de sesion, opcion 2 (CONFIG)       1600 x 900
+logo-qorvex.jpg          Logo QORVEX horizontal (bienvenida, avatar Mobile)  1164 x 276
+logo-qorvex-claro.png    Logo QORVEX sobre fondo claro (login, inicio)       1164 x 276, fondo transparente
+logo-qorvex-oscuro.png   Logo QORVEX sobre fondo oscuro (login, inicio)      1164 x 276, fondo transparente
+q-claro.png              Simbolo Q, tema claro (barra de Mobile)             ~320 x 220, fondo transparente
+q-oscuro.png             Simbolo Q, tema oscuro (menu lateral del Motor)     ~320 x 220, fondo transparente
+logo-ch.jpg              Logo CH Industrial Solutions (login, Acerca de)     160 x 144
+logo-etiqueta.png        Logo impreso en las etiquetas 6 x 4                 420 x 100, fondo transparente
+icono-ch.png             Icono de la pestana del navegador                   64 x 64
+icono-ch-180.png         Icono grande (acceso en celular / Acerca de)        180 x 180

@@ -18,3 +18,9 @@ QORVEX (Motor): https://ch-industrial-solutions.github.io/QORVEX_SeqManager/
 
 ## Etiquetas 6 × 4
 Pestaña **ETIQUETAS** (misma en QORVEX y QORVEX MOBILE): genera, imprime, reimprime y anula etiquetas de Validación, Secuencia y Línea. Registro en TXT dentro de `Data Base/Etiquetas/`; los consecutivos se reservan con candado para que dos equipos nunca saquen el mismo ID. Código compartido: `js/etiquetas.js` (en MOBILE va incluido dentro de `index.html`). Código de barras Code 128 propio, sin librerías externas.
+
+## Estructura (V 13.06)
+- `index.html` — página (solo enlaza los archivos).
+- `css/` — estilos: `mobile.css` (base), `tema-claro.css`, `diseno.css`, `diseno-extra.css`.
+- `js/` — código: `mobile.js` (captura), `capturas-txt.js` (TXT en Data Base), `sesion.js` (inicio de sesión y usuarios), `etiquetas.js` (igual al del Motor), `qxsec.js` (seguridad, igual al del Motor), `seguridad-mobile.js`, `tema.js`, `tema-inicio.js`, `abrir-otra-app.js`, `lib/` (SheetJS).
+- `img/` — imágenes con los **mismos nombres que en QORVEX (Motor)**. Ver `img/LEEME.txt` para saber dónde sale cada una y qué tamaño usar.
